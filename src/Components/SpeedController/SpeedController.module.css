@@ -1,0 +1,26 @@
+.speedController {
+  padding: 0 20px;
+}
+
+
+.input {
+  position: relative;
+}
+
+.input::before {
+  content: '1';
+  position: absolute;
+  top: -3px;
+  left: -12px;
+  font-size: 16px;
+ 
+
+}
+
+.input::after {
+  content: '5';
+  position: absolute;
+  top: -3px;
+  right: -13px;
+  font-size: 16px;
+}

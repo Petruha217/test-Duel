@@ -1,0 +1,28 @@
+.wrapper {
+  width: 200px;
+}
+
+.scoreboard {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  font-size: 30px;
+  line-height: 30px;
+  border: 2px solid #000;
+}
+
+.title {
+  margin-bottom: 5px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
